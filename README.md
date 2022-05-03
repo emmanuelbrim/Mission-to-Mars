@@ -5,52 +5,64 @@ _Web Scraping to Extract Online Data_
 ## Overview of the Project
 
 Large organizations employ web scraping to assess and track the competition within their industires via online. 
-This project was undertaken to polish a web app that uses an automated web browser to visit different websites containing data on Mars Exploration and publish the results on a webpage.
+This project was undertaken to polish an existing web app that uses an automated web browser to visit different websites containing data on Mars Exploration and publish the results on a webpage.
 
-The main goals for the project include:
+### The main goals for the project include:
 
 - Scarping full-resolution images and titles of Mars Hemisphere.
-- Updating the the scraping script, Flask app and the index.html file, so that the Mars Hemisphere images and tiles can be displayed on the page.
-- Imporve the appearance of the page using Bootstrap3 components.
+- Updating the the scraping script and the index.html file, so that the Mars Hemisphere images and tiles can be displayed on the page using Flask app.
+- Make the Webpage Mobile-reponsiveand improve the appearance of the page using Bootstrap3 components.
 
 ### Resources:
+1. MongoDB
+2. Jupyter Notebook
+3. Visual Studio Code
+
 
 
 ## Results
 
-* **Weather Database**
+* **Scarpe Full-Resolution Images and Titles of Mars Hemisphere**
 
-Using the numpy module with the random function, 2,000 cordinates were generated to help produce city destinations.
-The list of possible cities was generated from the cordinates after the citipy module was applied on the cordinates.
-In order to get the weather condition of these cities, required using API calls to OpenWeatherMap to obtain current weather. 
-A DataFrame was then created to hold the infomation retrieved from the call.
+Using Jupyter Notebook, the Mission_to_Mars script was updated with code to visit and scrape imgaes and tiles of Mars Hemisphere.
 
-_Below is an example of the  DataFrame that was generated_
+_Below is an example of the  Code used to extract and store Hemisphere image_
 
-![city_data](https://user-images.githubusercontent.com/100079292/162348096-156e6293-0a26-4aba-881b-7415256917a1.PNG)
+![hemisphere_images](https://user-images.githubusercontent.com/100079292/162348096-156e6293-0a26-4aba-881b-7415256917a1.PNG)
 
 
-* **Vacation_Search**
+* **Updating Web App with Mars Hemisphere Images and Title**
 
-Prefered weather was collected from clients using input statements where clients could enter the maximum and minimum temperatures they so desire.
-These values were then used to generate cordinates to produce list of prefered cities from the weather database file.
-Next an API call to Google maps returned the nearest hotels to possible city destinations.
-Using info_box_template and list comprehension a marker layer map was produced to show cureent weather conditions for possible hotel locations around the world.
+The updated Mission_to_Mars.ipynb was converted to a python file and exported so that it could be read and cleaned using VSCode.
+The original scrape script was then updated with the new code from Mission_to_Mars file so the process to extract hemisphere data would be automated.
+To do this a new function was created after mars_facts function to hold the hemisphere code and a new dictionary (hemisphere) was also created in the data dictionary of the scrape_all function to hold the mages and tiles of Mars Hemisphere. 
 
-_Example of google maps with markers for current weather condition_
+_Example of the final scrape code_
 
-![Alt text](https://github.com/emmanuelbrim/World_Weather_Analysis/blob/main/Vacation_Search/Weather_vacation_map.PNG)
-
-
-* **Vacation_Itinerary*
-
-The creation of the vacation_itinearry involved the use of Google maps API to map out a sample itinerary from 4 cities that a client might prefer to visit based on the weather. The result showed a clean route for travel between four cities in South Africa. 
+![Scrape_code 1](https://github.com/emmanuelbrim/World_Weather_Analysis/blob/main/Vacation_Search/Weather_vacation_map.PNG)
 
 
-Example of google maps with markers for current weather condition_
+![Scrape_code 2](https://github.com/emmanuelbrim/World_Weather_Analysis/blob/main/Vacation_Search/Weather_vacation_map.PNG)
 
-![Alt text](https://github.com/emmanuelbrim/World_Weather_Analysis/blob/main/Vacation_Itinerary/WeatherPy_travel_map.png)
+The index.html file was also updated to reflect the change in the scraping file and retrieve the images and titles was to be displayed. 
 
-## Summary
-Though the analysis done in this project meets the objectives for which it was set, other statistical analysis like using linear regression models on the weather provides more information on which clients would make a valid decision on which city to visit.
+![index.html](https://github.com/emmanuelbrim/World_Weather_Analysis/blob/main/Vacation_Search/Weather_vacation_map.PNG)
+
+* **Improve Responsiveness and Styling of the Webpage using Bootstrap3 Components.*
+
+The responsiveness of the app was imporved with update to the grid system in the html so the page could be displayed on all platforms and devices.
+Finally the appearance of the webpage was also improved by incorporating a background image into the header tag, changing the color of the scrape button and changing the shape of the featured_image to thumbnail.
+
+_Example of the code to style page_
+
+![style](https://github.com/emmanuelbrim/World_Weather_Analysis/blob/main/Vacation_Itinerary/WeatherPy_travel_map.png)
+
+
+_Example of the code to improve responsiveness_
+
+![Responsive](https://github.com/emmanuelbrim/World_Weather_Analysis/blob/main/Vacation_Itinerary/WeatherPy_travel_map.png)
+
+
+## Final Webpage Display
+![Web View](https://github.com/emmanuelbrim/World_Weather_Analysis/blob/main/Vacation_Itinerary/WeatherPy_travel_map.png)
 
