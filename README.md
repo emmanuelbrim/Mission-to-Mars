@@ -28,7 +28,7 @@ Using Jupyter Notebook, the Mission_to_Mars script was updated with code to visi
 
 _Below is an example of the  Code used to extract and store Hemisphere image_
 
-![hemisphere_images](https://user-images.githubusercontent.com/100079292/162348096-156e6293-0a26-4aba-881b-7415256917a1.PNG)
+![hemisphere_images](https://github.com/emmanuelbrim/Mission-to-Mars/blob/main/Resources/Hemisphere%20images.PNG)
 
 
 * **Updating Web App with Mars Hemisphere Images and Title**
@@ -39,14 +39,14 @@ To do this a new function was created after mars_facts function to hold the hemi
 
 _Example of the final scrape code_
 
-![Scrape_code 1](https://github.com/emmanuelbrim/World_Weather_Analysis/blob/main/Vacation_Search/Weather_vacation_map.PNG)
+![Scrape_code 1](https://github.com/emmanuelbrim/Mission-to-Mars/blob/main/Resources/scrape_code%201.PNG)
 
 
-![Scrape_code 2](https://github.com/emmanuelbrim/World_Weather_Analysis/blob/main/Vacation_Search/Weather_vacation_map.PNG)
+![Scrape_code 2](https://github.com/emmanuelbrim/Mission-to-Mars/blob/main/Resources/scrape_code%202.PNG)
 
 The index.html file was also updated to reflect the change in the scraping file and retrieve the images and titles was to be displayed. 
 
-![index.html](https://github.com/emmanuelbrim/World_Weather_Analysis/blob/main/Vacation_Search/Weather_vacation_map.PNG)
+![index.html](https://github.com/emmanuelbrim/Mission-to-Mars/blob/main/Resources/index.PNG)
 
 * **Improve Responsiveness and Styling of the Webpage using Bootstrap3 Components.*
 
@@ -55,12 +55,12 @@ Finally the appearance of the webpage was also improved by incorporating a backg
 
 _Example of the code to style page_
 
-![style](https://github.com/emmanuelbrim/World_Weather_Analysis/blob/main/Vacation_Itinerary/WeatherPy_travel_map.png)
+![style](https://github.com/emmanuelbrim/Mission-to-Mars/blob/main/Resources/Background.PNG)
 
 
 _Example of the code to improve responsiveness_
 
-![Responsive](https://github.com/emmanuelbrim/World_Weather_Analysis/blob/main/Vacation_Itinerary/WeatherPy_travel_map.png)
+![Responsive](https://github.com/emmanuelbrim/Mission-to-Mars/blob/main/Resources/Responsiveness.PNG)
 
 
 ## Final Webpage Display
