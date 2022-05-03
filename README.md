@@ -44,9 +44,11 @@ _Example of the final scrape code_
 
 ![Scrape_code 2](https://github.com/emmanuelbrim/Mission-to-Mars/blob/main/Resources/scrape_code%202.PNG)
 
+
 The index.html file was also updated to reflect the change in the scraping file and retrieve the images and titles was to be displayed. 
 
 ![index.html](https://github.com/emmanuelbrim/Mission-to-Mars/blob/main/Resources/index.PNG)
+
 
 * **Improve Responsiveness and Styling of the Webpage using Bootstrap3 Components.*
 
@@ -64,5 +66,5 @@ _Example of the code to improve responsiveness_
 
 
 ## Final Webpage Display
-![Web View](https://github.com/emmanuelbrim/World_Weather_Analysis/blob/main/Vacation_Itinerary/WeatherPy_travel_map.png)
+![Web View]()
 
